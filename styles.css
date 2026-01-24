@@ -15,32 +15,29 @@ h1 {
   margin-bottom: 40px;
 }
 
-ul {
+.main-list {
   list-style-type: none;
   padding: 0; 
   margin: 0 auto;
   width: 300px; 
 }
 
-li {
+.main-list li {
+  margin-bottom: 15px;
+}
+
+.main-list a {
+  display: block;
+  text-decoration: none;
+  color: #444;
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 5px;
-  margin-bottom: 15px;
   padding: 15px;
   font-size: 18px;
-}
+} 
 
-a {
-  text-decoration: none;
-  color: #444;
-}
-
-a:hover {
-    color: #e2725b;
-}
-
-li:hover {
+.main-list a:hover {
+  color: #e2725b;
   border-color: #1a1a1a;
-  cursor: pointer;
 }
