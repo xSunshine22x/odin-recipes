@@ -32,7 +32,7 @@ h1 {
   color: #444;
   background-color: #fff;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 15px;
   padding: 15px;
   font-size: 18px;
 } 
@@ -40,4 +40,35 @@ h1 {
 .main-list a:hover {
   color: #e2725b;
   border-color: #1a1a1a;
+} 
+
+.recipe-container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.recipe-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.recipe-info {
+    text-align: left; /* Essencial para listas e parágrafos */
+    padding: 0 20px;
+}
+
+.recipe-info h2, .recipe-info h3 {
+    color: #e2725b; /* Mantém a cor de destaque */
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 5px;
+}
+
+.recipe-info li {
+    margin-bottom: 10px;
 }
