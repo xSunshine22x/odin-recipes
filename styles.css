@@ -59,16 +59,32 @@ h1 {
 }
 
 .recipe-info {
-    text-align: left; /* Essencial para listas e parágrafos */
+    text-align: left;
     padding: 0 20px;
 }
 
 .recipe-info h2, .recipe-info h3 {
-    color: #e2725b; /* Mantém a cor de destaque */
+    color: #e2725b;
     border-bottom: 2px solid #f0f0f0;
     padding-bottom: 5px;
 }
 
 .recipe-info li {
     margin-bottom: 10px;
+}
+
+.btn-back {
+    display: inline-block;
+    text-decoration: none;
+    color: #e2725b;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border: 1px solid #e2725b;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn-back:hover {
+    background-color: #e2725b;
+    color: white;
 }
